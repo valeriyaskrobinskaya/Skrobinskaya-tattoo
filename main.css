@@ -1,0 +1,21 @@
+html {
+ width: 100%;
+ background: url("background.jpg") no-repeat;
+ background-size: cover;
+
+}
+main {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+}
+ article {
+  display: block;
+  border: 1px solid black;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+
+ }
+
+
