@@ -1,0 +1,40 @@
+main {
+ box-sizing: border-box;
+}
+
+#studio-overview {
+ background: url("../images/background.jpg") left 10% bottom 10%/cover no-repeat border-box;
+ width: 100%;
+ height: 600px;
+ padding: 10px;
+ margin: 0;
+ /* border: 5px dashed red; */
+ position: relative;
+}
+
+.studio-information {
+ position: absolute;
+ top: 25%;
+ left: 15%;
+ display: inline-block;
+ box-sizing: border-box;
+}
+
+.studio-photo {
+ width: 40%;
+ box-shadow: 4px 4px 19px -5px rgba(0, 0, 0, 0.94);
+}
+
+.studio-anotation {
+ float: right;
+ width: 40%;
+ padding-top: 10%;
+ padding-right: 5%;
+ text-align: left;
+ font-size: 1.25em;
+}
+.studio-anotation h2 {
+ text-align: center;
+ color: antiquewhite;
+ font-size: 2.25em;
+}
